@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Ruda:wght@400..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: #fff;
+}
+nav {
+  font-family: "Ruda", sans-serif;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav > h1 {
+  display: flex;
+  align-items: center;
+}
+.link {
+  padding-right: 35px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+}
+
+.social-media {
+  width: 42px;
+  height: 23px;
+  margin: 10px;
+}
+
+/* page1 */
+
+.pizza-p1 {
+  height: 87vh;
+  background-image: url("./Images/Background-pizza.png");
+  background-position: contain;
+  background-size: 100% 100%;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: end;
+}
+
+.heading {
+  width: 902px;
+  height: 215px;
+  background-color: transparent;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  font-size: 99px;
+  text-align: left;
+  margin-left: 91px;
+}
+
+.rectangle {
+  width: 520px;
+  height: 13px;
+  background-color: #f24c4c;
+  margin-left: 91px;
+}
+
+.paragraph {
+  background-color: transparent;
+  width: 500px;
+  height: 325px;
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 9%;
+  text-align: justify;
+  margin-left: 91px;
+}
+
+/* page-2 */
+
+h2 {
+  text-align: center;
+  font-family: Quattrocento;
+  font-weight: 400;
+  font-size: 60px;
+  margin-top: 99px;
+}
+
+.underline {
+  width: 526px;
+  height: 10px;
+  background-color: #b62828;
+  margin-left: 33.33%;
+}
+
+.page-2_discription {
+  display: flex;
+  justify-content: space-around;
+}
+
+.discription_overline {
+  width: 535px;
+  height: 4px;
+  background-color: #f24c4c;
+}
+
+.page-2_paragraph {
+  width: 677px;
+  height: 420px;
+  text-align: left;
+  position: relative;
+  top: 100px;
+  font-size: 25px;
+  font-family: Ruda;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 9%;
+  margin-top: 53px;
+}
+
+.page-2_image {
+  width: 631px;
+  height: 506px;
+  margin-top: 94px;
+}
+
+/* page-3 */
+
+.page-3_paragraph_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-3_paragraph_container > p {
+  width: 67%;
+  font-family: Ruda;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 9%;
+  margin: 57px;
+}
+
+.menu_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 75%;
+  margin: auto;
+}
+
+.menu-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-bottom: 61px;
+}
+
+.menu_description {
+  width: 346px;
+}
+
+.menu_description > h3 {
+  color: #f2c94c;
+  font-family: Ruda;
+  font-weight: 400;
+  font-size: 28px;
+  margin-left: 20px;
+}
+
+.menu_description > p {
+  font-family: Ruda;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  margin-left: 20px;
+}
+
+/* page-4 */
+
+.chevron {
+  color: #fff;
+}
+
+.chevron-left {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chevron-right {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.piza_carousel_container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto 80% auto;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.carousel-dots i {
+  font-size: 20px;
+}
+
+.active-dot {
+  color: #ffffff;
+}
+
+.inactive-dot {
+  color: #ffffff4d;
+}
+
+/* gallary */
+
+.galley-box {
+  width: 75%;
+  margin: 57px auto auto auto;
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+  align-items: center;
+  margin-right: 130px;
+}
+
+/* find-us has same css as about  */
+
+/* footer */
+
+.footer-details {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.waiter-img {
+  margin-left: 99px;
+}
+
+.email {
+  margin-top: 50px;
+  margin-left: 200px;
+  display: flex;
+}
+
+.email>p{
+ font-family: Ruda;
+ font-size: 20px;
+ margin-top: 18px;
+ margin-left: 10px;
+ 
+}
